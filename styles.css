@@ -97,60 +97,56 @@ header {
 .featured-container {
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
     gap: 20px;
+    margin-bottom: 100px;
 }
 
 .featured-flower-l {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     width: 370px;
-    display: flex;
     align-items: flex-end;
-    justify-content: center;
     padding: 85px 60px 0;
 }
 
 .featured-flower-c {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     width: 370px;
-    display: flex;
     align-items: center;
-    justify-content: center;
     padding: 95px 35px 0;
 
 }
 
 .featured-flower-r {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     width: 370px;
-    display: flex;
     align-items: flex-end;
-    justify-content: center;
     padding: 85px 60px 0;
 
 }
 
+.flower-common{
+    border-radius: 300px 300px 0px 0px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+}
+
 .featured-img-l {
     width: 250px;
-    height: 340px;
 }
 
 .featured-img-c {
     width: 300px;
-
+    margin-bottom: 20px;
 }
 
 .featured-img-r {
     width: 250px;
-    height: 375px;
 }
 
 .caption-container {
-    display: flex;
-    justify-content: space-around;
-    margin: 25px 0 100px;
+    text-align: center;
 }
 
 .flower-caption {
@@ -158,6 +154,7 @@ header {
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
+    margin-top: 25px;
     text-decoration-line: underline;
 }
 
