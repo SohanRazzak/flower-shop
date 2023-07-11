@@ -88,3 +88,73 @@ header {
 }
 
 /* Our Flowers Section  */
+.our-flower{
+    max-width: 1140px;
+    display: block;
+    margin: 0 auto;
+}
+
+.featured-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.featured-flower-l{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 370px;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+padding: 85px 60px 0;
+}
+.featured-flower-c{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+width: 370px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 95px 35px 0;
+
+}
+.featured-flower-r{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+width: 370px;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+padding: 85px 60px 0;
+
+}
+
+.featured-img-l{
+width: 250px;
+height: 340px;
+}
+
+.featured-img-c{
+width: 300px;
+
+}
+
+.featured-img-r{
+    width: 250px;
+    height: 375px;
+    }
+
+.caption-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0 100px;
+}
+
+.flower-caption{
+    color: #272727;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
