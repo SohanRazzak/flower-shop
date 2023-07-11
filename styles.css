@@ -293,3 +293,37 @@ header {
     width: 550px;
     border: none;
 }
+
+/* Footer Section */
+footer{
+    background: #111010;
+}
+
+.footer-wrap{
+    text-align: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+footer h2{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.90);
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.credit{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 14px;
+}
