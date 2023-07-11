@@ -296,7 +296,7 @@ header {
 
 /* Footer Section */
 footer{
-    background: #111010;
+    background: #201d1d;
 }
 
 .footer-wrap{
@@ -323,7 +323,7 @@ footer p{
 }
 
 .credit{
-    color: rgba(255, 255, 255, 0.40);
+    color: rgba(255, 255, 255, 0.50);
 text-align: center;
-font-size: 14px;
+font-size: 15px;
 }
