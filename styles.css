@@ -232,19 +232,64 @@ header {
 }
 
 /* Gallery Section  */
-.gallery{
+.gallery {
     display: block;
     margin: 0 auto;
     max-width: 1140px;
 }
 
 
-.gallery-container{
+.gallery-container {
     display: flex;
     justify-content: center;
-    gap:20px;
+    gap: 20px;
 }
 
-.gallery-container img{
+.gallery-container img {
     width: 275px;
+}
+
+/* Email Section */
+.email-sub {
+    display: block;
+    max-width: 1140px;
+    margin: 100px auto;
+}
+
+.sub-box {
+    padding: 100px 0;
+    text-align: center;
+    background: url('img/rect-9.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.sub-box h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.sub-box p {
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 20px;
+    margin-bottom: 35px;
+}
+
+.sub-box form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.sub-box input[type="text"] {
+    padding: 15px 35px;
+    background: #FFF;
+    line-height: 22px;
+    width: 550px;
+    border: none;
 }
